@@ -92,3 +92,259 @@ KBPRO to projekt o ogromnym potencjale wzrostu w sektorze **ConTech**. Obecnie p
 
 ---
 *Dokumentacja techniczna i instrukcje uruchomienia znajdują się w katalogu `/docs`.*
+
+
+KBPRO
+Cyfrowy ekosystem budownictwa: inwestor – wykonawca – dostawca – e-commerce
+
+1️⃣ Wizja
+
+KBPRO to platforma łącząca:
+osoby prywatne i inwestorów
+wykonawców budowlanych
+podwykonawców
+dostawców materiałów
+wynajem sprzętu
+sprzedaż materiałów używanych
+moduł e-commerce (E-Shop) obsługiwany przez dużą sieć handlową (np. xxxxx)
+
+Celem jest stworzenie jednego środowiska, w którym cały proces budowlany odbywa się cyfrowo.
+
+Od pomysłu → przez wycenę → zamówienie materiałów → realizację → rozliczenie.
+
+
+
+2️⃣ ROLA 1 – UŻYTKOWNIK / INWESTOR
+
+(Osoba zlecająca usługę, robiąca remont, budująca dom, kupująca materiały)
+
+🔎 1. Szukanie wykonawcy
+
+publikacja zlecenia budowlanego
+otrzymywanie ofert od wykonawców
+porównanie cen robocizny
+przegląd realizacji i opinii
+ranking wykonawców w aplikacji
+prosty kalkulator prac remontowych
+poradniki 
+umowy protokoł
+
+Korzyść: ✔ konkurencyjne ceny
+✔ większa przejrzystość rynku
+✔ mniej ryzyka
+
+
+🧮 2. Kalkulator budowy domu
+
+symulacja kosztów
+porównanie stawek robocizny
+cenniki,umowy,dokumenty
+roadmap z listą zadań
+wykonawcy premium dla etapu
+kosztorysowanie z listą zakupów 
+integracja z eshop + dostawa na plac budowy
+bilans kosztów
+baza specjalistów (geodeta,kierownik,konstruktor,instalatorzy)
+
+
+Korzyść: ✔ świadome decyzje finansowe
+✔ kontrola budżetu
+✔ brak „niespodzianek”
+
+
+🛒 3. Marketplace materiałów
+
+zakup materiałów bezpośrednio
+porównanie cen
+dostęp do ofert promocyjnych eshop
+
+Korzyść: ✔ szybki zakup
+✔ realne ceny rynkowe
+✔ pełna przejrzystość kosztów
+
+
+📦 4. E-Shop – zamówienie z dostawą
+
+zamówienie materiałów na budowę
+dostawa na wskazany adres
+
+Korzyść: ✔ brak jeżdżenia po hurtowniach
+✔ wygoda
+✔ pełna dokumentacja zakupów
+
+
+
+
+🔄 5. Sprzedaż materiałów używanych
+
+sprzedaż nadwyżek materiałowych
+zakup tańszych materiałów z drugiej ręki
+lokalny rynek wtórny budowlany
+
+Korzyść: ✔ oszczędność
+✔ ograniczenie strat
+✔ gospodarka obiegu zamkniętego
+
+
+🚜 6. Wynajem sprzętu i narzędzi
+wynajem rusztowań
+wynajem elektronarzędzi
+wynajem sprzętu ciężkiego
+
+Korzyść: ✔ brak konieczności zakupu
+✔ elastyczność
+✔ dostęp do profesjonalnego sprzętu
+
+
+3️⃣ ROLA 2 – WYKONAWCA ♥️
+
+To kluczowa grupa docelowa KBPRO. 
+
+🔎 🎯 1. Pozyskiwanie zleceń budowlanych 
+dostęp do giełdy zleceń
+aktywne składanie ofert
+filtrowanie projektów
+widoczność w aplikacji
+reklama i pozycjonowanie w obrębie KBPRO
+
+Korzyść: ✔ stały dopływ zleceń
+✔ stabilność finansowa
+✔ rozwój firmy
+
+📄 2. Szybkie oferty, duże kosztorysy 
+
+generowanie ofert w kilka minut
+duże kosztorysy inwestycyjne
+eksport i prezentacja inwestorowi
+porównanie własnych cen z rynkiem
+wycena+oferta
+cenniki wykonawców
+cenniki materialłów
+cenniki sprzętu
+
+Korzyść: ✔ profesjonalny wizerunek
+✔ większa skuteczność wygrywania przetargów
+✔ kontrola marży
+
+📊 3. Chcę znać ceny innych wykonawców 
+
+analiza stawek rynkowych
+benchmarking
+porównanie cen robocizny
+
+Korzyść: ✔ konkurencyjność
+✔ unikanie zaniżania cen
+✔ świadome ustalanie stawek
+
+
+👷 4. Szukanie podwykonawców. 🔍
+baza specjalistów
+system ocen
+szybkie zaproszenia do współpracy
+Korzyść: ✔ szybsza realizacja projektów
+✔ skalowanie działalności
+
+📦 5. Magazyn wykonawcy
+
+kontrola stanów magazynowych
+wydania materiałów na budowę
+integracja z E-Shop
+analiza zużycia
+
+Korzyść: ✔ mniej strat
+✔ lepsze planowanie
+✔ realna kontrola kosztów
+
+
+🚚 6. Dostawa na plac budowy
+
+zamówienie bezpośrednio z kosztorysu
+realizacja przez E-Shop
+mobilne składanie zamówień
+Korzyść: ✔ oszczędność czasu
+✔ brak przestojów
+✔ ciągłość pracy
+
+📅 7. Harmonogram czasu pracy
+
+planowanie zadań
+kontrola terminów
+rozliczenie etapów
+
+Korzyść: ✔ lepsza organizacja
+✔ mniej opóźnień
+
+🚜 8. Wynajem sprzętu przez platformę
+
+rezerwacja sprzętu
+integracja z harmonogramem
+możliwość wynajmu własnego sprzętu
+
+Korzyść: ✔ dodatkowy przychód
+✔ elastyczność operacyjna
+
+📢 9. Reklama i pozycjonowanie
+
+profile premium
+wyróżnienia w wynikach
+widoczność w regionie
+
+Korzyść: ✔ więcej zapytań
+✔ budowa marki
+
+
+
+4️⃣ ROLA 3 – E-SHOP (PARTNER HANDLOWY)
+
+
+E-Shop to silnik logistyczny systemu.
+
+🏷 1. Udostępnianie cen do ofert
+integracja z kosztorysami
+automatyczne aktualizacje cen
+pełna synchronizacja z koszykiem
+
+Korzyść: ✔ stały napływ zamówień B2B
+✔ realne dane zakupowe
+
+📦 2. Realizacja dostaw na plac budowy
+kompletacja zamówień
+multi-warehouse
+optymalizacja tras
+
+Korzyść: ✔ zwiększony wolumen sprzedaży
+✔ przewidywalny popyt
+
+🔗 3. Integracja z ofertami i cennikami
+ceny wykorzystywane w wycenach
+integracja z zamówieniem jednym kliknięciem
+pełna integracja z koszykiem sklepu
+
+Korzyść: ✔ sprzedaż „z poziomu kosztorysu”
+✔ przewaga konkurencyjna
+
+5️⃣ Model biznesowy
+........
+
+6️⃣ Architektura technologiczna
+
+mikroserwisy (DDD)
+API Gateway
+Integration Gateway
+event-driven architecture
+multi-warehouse
+skalowanie horyzontalne
+SaaS multi-tenant
+
+System jest rozwinięty w ~80% i gotowy do stabilizacji produkcyjnej.
+
+7️⃣ Strategiczne znaczenie projektu
+KBPRO:
+
+digitalizuje rynek budowlany
+łączy rozproszonych uczestników
+zwiększa przejrzystość cen
+zwiększa rentowność wykonawców
+daje partnerowi handlowemu przewagę w B2B
+To nie jest aplikacja.
+To infrastruktura cyfrowa branży budowlanej.
