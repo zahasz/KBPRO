@@ -1,89 +1,94 @@
-
 # KBPRO — Ekosystem Cyfrowy dla Branży Budowlanej
 
 ![KBPRO Status](https://img.shields.io/badge/Status-Active%20Development-success)
-![Version](https://img.shields.io/badge/Version-2.1.0-blue)
+![Version](https://img.shields.io/badge/Version-2.2.0-blue)
 ![Tech Stack](https://img.shields.io/badge/Stack-TypeScript%20%7C%20Node.js%20%7C%20Next.js%20%7C%20Microservices-3178C6)
 
-**KBPRO** to zaawansowana platforma SaaS typu ERP/CRM dedykowana branży budowlanej, zintegrowana z niezależnym silnikiem E-Commerce (**E-Shop**). Projekt łączy narzędzia do zarządzania firmą wykonawczą z rynkiem materiałów budowlanych w czasie rzeczywistym.
+**KBPRO** to przełomowa platforma SaaS, która redefiniuje sposób prowadzenia biznesu w branży budowlanej. Łączymy zaawansowany system ERP/CRM dla wykonawców z potężnym silnikiem E-Commerce (**E-Shop**), tworząc spójne środowisko pracy oparte na danych w czasie rzeczywistym.
 
 ---
 
-## 🎯 Misja Projektu
+## 🚀 Odkryj Możliwości KBPRO + E-SHOP
 
-Naszym celem jest cyfryzacja małych i średnich przedsiębiorstw budowlanych poprzez dostarczenie im "Systemu Operacyjnego" do prowadzenia biznesu. KBPRO automatyzuje procesy — od pozyskania klienta, przez kosztorysowanie oparte o **żywe ceny rynkowe**, aż po realizację zamówień i fakturowanie.
+Niezależnie od tego, czy jesteś profesjonalnym wykonawcą, czy inwestorem budującym swój wymarzony dom, KBPRO dostarcza narzędzi, które oszczędzą Twój czas i pieniądze. **Z nami budowanie staje się proste, przewidywalne i dochodowe.**
 
-## 🏗 Architektura Systemu
+### 🛠 Dla Wykonawców: Twój Biznes pod Pełną Kontrolą
+*   **Pozyskiwanie Klientów:** Aktywnie zdobywaj zlecenia na nowoczesnej **Giełdzie Zleceń Budowlanych**.
+*   **Profesjonalne Ofertowanie:** Twórz oferty, które wygrywają, w oparciu o aktualne ceny rynkowe.
+*   **Zaawansowane Kosztorysowanie:** Wykonuj proste kalkulacje oraz złożone kosztorysy z niezwykłą precyzją.
+*   **Analityka Cen:** Analizuj ceny materiałów i robocizny innych wykonawców, aby zawsze być konkurencyjnym.
+*   **Zarządzanie Zasobami:** Prowadź **własny magazyn** narzędzi i materiałów oraz zarządzaj spersonalizowanymi cennikami usług.
 
-Projekt oparty jest na nowoczesnej architekturze **Mikroserwisów**, zapewniającej skalowalność, niezawodność i łatwość rozwoju. System podzielony jest na dwa autonomiczne, współpracujące ze sobą filary:
-
-### 1. KBPRO (Contractor Operating System)
-"Mózg operacyjny" dla wykonawcy.
-*   **Core Stack:** Node.js, Express, PostgreSQL, Redis.
-*   **Moduły Główne:**
-    *   **Contractor Service:** Zarządzanie profilami, wizytówkami i ekipami.
-    *   **Estimate Service & Calculator:** Zaawansowane kosztorysowanie i Kalkulator Budowy Domu zasilane cenami live.
-    *   **Contractor Finance:** Pełna księgowość operacyjna (Faktury, Subskrypcje, Magazyn Wewnętrzny).
-    *   **Catalog Service:** Marketplace ogłoszeń i produktów B2B.
-
-### 2. E-SHOP (Commerce Engine)
-Niezależna platforma handlowa (Retail/B2B).
-*   **Rola:** Dostawca danych cenowych i realizator logistyki.
-*   **Integracja:** Działa jako odseparowany pakiet, komunikujący się z KBPRO poprzez dedykowany **Integration Adapter**.
+### 🏠 Dla Użytkowników i Inwestorów: Budowa bez Niespodzianek
+*   **Transparentność Cen:** Uzyskaj dostęp do aktualnych cenników prac i materiałów budowlanych.
+*   **Szybkie Zlecenia:** Składaj zlecenia budowlane bezpośrednio do zweryfikowanych fachowców.
+*   **Kalkulator Budowy Domu:** Twój osobisty asystent z **roadmapą, kosztorysem, dziennikiem budowy i kalendarzem**.
+*   **Baza Wykonawców:** Przeszukuj bazę cen i opinii o wykonawcach, aby wybrać najlepszą ofertę.
+*   **Pełna Integracja:** Otrzymuj oferty materiałów bezpośrednio z E-Shopu, idealnie dopasowane do Twojego projektu.
 
 ---
 
-## 🚀 Kluczowe Funkcjonalności
+## 🏗 Architektura Mikroserwisów
 
-### Dla Wykonawcy (B2B)
--   **Inteligentne Kosztorysy:** Tworzenie ofert w oparciu o aktualne ceny z E-Shopu (Live Pricing API).
--   **Kalkulator Budowy Domu:** Precyzyjna wycena inwestycji dla klienta końcowego w kilka minut.
--   **Biuro w Kieszeni:** Wystawianie faktur, zarządzanie magazynem narzędzi, kalendarz zleceń.
--   **Wizytówka Online:** Profesjonalny profil wykonawcy z portfolio i opiniami.
+System KBPRO składa się z wyspecjalizowanych serwisów, które współpracują, aby zapewnić najwyższą wydajność i niezawodność:
 
-### Dla Inwestora (B2C)
--   **Znajdź Fachowca:** Wyszukiwarka zweryfikowanych ekip budowlanych.
--   **Marketplace:** Kupno materiałów budowlanych (nowych i z nadwyżek magazynowych).
+| Serwis | Funkcja i Opis |
+| :--- | :--- |
+| **Auth Service** | Bezpieczne uwierzytelnianie, zarządzanie użytkownikami i uprawnieniami (JWT/RBAC). |
+| **Contractor Service** | Serce platformy dla wykonawców: profile firm, profesjonalne wizytówki, zarządzanie ekipami. |
+| **Pricing Service** | Silnik cenników, integracja z E-Shopem dla pobierania cen "live" i analiza stawek rynkowych. |
+| **Offer Service** | Moduł generowania i zarządzania ofertami handlowymi dla klientów. |
+| **Estimate Service** | Zaawansowany moduł kosztorysowania z obsługą pozycji katalogowych i narzutów. |
+| **Invoice Service** | Automatyczne wystawianie faktur VAT, proforma oraz zarządzanie płatnościami. |
+| **Finance Service** | Monitoring przepływów pieniężnych, analiza rentowności zleceń i koszty operacyjne. |
+| **Contract Service** | Generator umów budowlanych i zarządzanie dokumentacją prawną projektów. |
+| **Catalog Service** | Marketplace produktów B2B, ogłoszenia materiałowe i katalog rozwiązań systemowych. |
+| **Warehouse Service** | Ewidencja stanów magazynowych, rezerwacje materiałów i historia wydań. |
+| **Dashboard Service** | Centrum dowodzenia: agregacja statystyk, powiadomienia i widoki zarządcze. |
+| **Building Calculator** | Interaktywny kalkulator budowy domu z generatorem harmonogramów (Roadmap). |
+| **Subscription Service** | Zarządzanie planami abonamentowymi i dostępem do funkcji premium platformy. |
+| **Suppliers Service** | Baza dostawców materiałów budowlanych z integracją logistyczną. |
+| **Messaging Service** | System komunikacji wewnątrzplatformowej między wykonawcą a inwestorem. |
+| **Integration Adapter** | Inteligentny most łączący KBPRO z systemem **E-Shop**, zapewniający synchronizację danych. |
+
+---
+
+## 🛒 E-SHOP: Potęga Zakupów Budowlanych
+
+E-Shop to nie tylko sklep, to silnik handlowy zintegrowany z procesem budowlanym:
+*   **Product Service:** Zarządzanie tysiącami produktów z pełną specyfikacją techniczną.
+*   **Inventory Service:** Śledzenie stanów magazynowych w wielu lokalizacjach.
+*   **Order Service:** Procesowanie zamówień od koszyka po dostawę na plac budowy.
+*   **Analytics Service:** Raportowanie trendów cenowych i optymalizacja zakupów.
 
 ---
 
 ## 🛠 Status Wdrożenia (Q1 2026)
 
-Projekt znajduje się w fazie zaawansowanego rozwoju (Post-MVP Optimization).
-
 | Obszar | Status | Opis |
 | :--- | :--- | :--- |
-| **Architektura** | ✅ Gotowe | Zakończono konsolidację domen (Finance, Contractor, Catalog). |
-| **Frontend** | ✅ Gotowe | Aplikacja Next.js w pełni zintegrowana z nowym API. |
-| **Bazy Danych** | 🔄 W toku | Finalizacja standardyzacji i poolingu połączeń. |
-| **Integracja E-Shop** | 🔄 W toku | Wdrożono Adapter i Price Service. Trwają testy synchronizacji stanów. |
-| **Mobile App** | 📅 Planowane | Rozpoczęcie prac planowane na Q3 2026. |
+| **Backend Core** | ✅ Gotowe | Wszystkie mikroserwisy uruchomione i skomunikowane. |
+| **E-Shop Integration** | ✅ Gotowe | Pełna synchronizacja cen i stanów magazynowych przez Adapter. |
+| **Frontend Web** | ✅ Gotowe | Intuicyjny interfejs Next.js dla Wykonawcy i Inwestora. |
+| **Giełda Zleceń** | 🔄 W toku | Optymalizacja algorytmów dopasowania wykonawców. |
+| **AI Estimator** | 📅 Planowane | Automatyczne kosztorysowanie na podstawie rzutów PDF (Q4 2026). |
 
 ---
 
-## 🤝 Współpraca i Sponsoring
+## 🤝 Wizja Inwestycyjna i Partnerstwo Strategiczne
 
-Poszukujemy partnerów strategicznych i inwestorów, którzy chcą mieć udział w cyfrowej transformacji sektora budowlanego.
+KBPRO to projekt o ogromnym potencjale wzrostu w sektorze **ConTech**. Obecnie poszukujemy **Inwestora Strategicznego** (np. dużej sieci handlowej materiałów budowlanych), który przejmie kontrolę nad modułem **E-Shop** i w pełni zintegruje go z ekosystemem KBPRO.
 
-**Dlaczego warto wesprzeć KBPRO?**
-1.  **Skala Rynku:** Budownictwo to jeden z najmniej scyfryzowanych sektorów gospodarki.
-2.  **Unikalna Technologia:** Jako jedyni oferujemy kosztorysowanie oparte o rzeczywiste stany magazynowe i ceny dystrybutorów w czasie rzeczywistym.
-3.  **Gotowy Produkt:** To nie jest makieta — to działający kod, gotowy do skalowania.
+### 💎 Korzyści dla Dużej Sieci Handlowej:
+*   **Bezpośredni Kanał do Profesjonalistów:** Twoje produkty stają się domyślnym wyborem dla tysięcy wykonawców na etapie tworzenia kosztorysu.
+*   **Live Pricing & Stock Integration:** Pełna synchronizacja Twoich stanów magazynowych i cen z procesem ofertowania wykonawcy – klient kupuje to, co faktycznie masz na półce.
+*   **Predykcja Popytu (Big Data):** Dzięki wglądowi w harmonogramy budów i "dzienniki budowy" inwestorów, wiesz z wyprzedzeniem, jakie materiały będą potrzebne za 2-4 tygodnie.
+*   **Automatyzacja Supply Chain:** Zamówienia z kosztorysów trafiają bezpośrednio do Twojego systemu logistycznego, eliminując błędy i skracając czas realizacji.
+*   **Budowa Lojalności:** Dostarczenie wykonawcom narzędzia ERP, które "samo zamawia" materiały w Twojej sieci, drastycznie zwiększa tzw. *customer stickiness*.
 
-### Potrzeby Projektowe
-*   Infrastruktura chmurowa (AWS/Azure) dla środowisk produkcyjnych.
-*   Wsparcie w marketingu i dotarciu do bazy wykonawców.
-*   Finansowanie zespołu deweloperskiego (rozszerzenie funkcjonalności AI).
-
----
-
-## 📞 Kontakt
-
-Jeśli jesteś zainteresowany współpracą, inwestycją lub chcesz przetestować wersję demo:
-
-**Zespół KBPRO**
-*   Email: kbpro@kbpro.pl
-*   GitHub: [Private Repository]
+**Kontakt dla Inwestorów:**
+*   Email: [kbpro@kbpro.pl](mailto:kbpro@kbpro.pl)
+*   Website: [www.kbpro.pl](http://www.kbpro.pl)
 
 ---
-*Dokumentacja techniczna dostępna dla autoryzowanych partnerów w katalogu `/docs`.*
+*Dokumentacja techniczna i instrukcje uruchomienia znajdują się w katalogu `/docs`.*
